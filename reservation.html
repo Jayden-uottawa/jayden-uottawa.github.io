@@ -1,0 +1,105 @@
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+    <title>Confirmation</title>
+</head>
+<body>
+    <h1 class="bg-info text-center">Reservation</h1>
+    <ul class="nav justify-content-center bg-light">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">A propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="expert.html">Experts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reservation.html">Prendre un Rendez-vous</a>
+        </li>
+      </ul>
+
+      <div style="height: 750px">
+        <div class="row height: 100px">
+            <div class="col-2 bg-info mh-100" style="height: 750px;"> 
+              <h6 class="text-center m-3">Comment nous contacter:</h6>
+              <p>Notre numéro de téléphone: (613) 751-8765</p>
+              <p>Notre addresse couriel: </p>
+              <p class="link-primary com">Reparation-auto-expert@gmail</p>
+  
+              <p>Notre addresse: 4065 rue Prommenade St-Eugène QC, K8T 1B7</p>
+              <div class="m-2"><img src="assets/image7.jpeg" alt="garage" class="img-thumbnail"></div>
+          
+          
+          </div>
+            <div class="col-8 bg-light">
+                <p class="lead">S'il vous plaît choisir un service:</p>
+                <select class="custom-select" id="service">
+                  <option disabled="" selected="" hidden="">Selection</option>
+                  <option value="cHuile">Changement d'huile</option>
+                  <option value="CPneu">Changement de pneu</option>
+                  <option value="RTransmission">Reparation de transmission</option>
+                  <option value="RMoteur">Réparation de moteur</option>
+                  <option value="CFrein">Changement de frein</option>
+                  <option value="RSuspension">Réparation de la suspension</option>
+                  <option value="CBatterie">Changement de la batterie</option>
+                  <option value="APneu">Alligment des pneus</option>
+                  <option value="RAC">Réparation de l'air climatisé</option>
+                  <option value="RCaroserie">Réparation de la caroserie</option>
+                </select>
+                <p class="lead">S'il vous plaît choisir un Expert:</p>
+                <select class="custom-select" id="expert">
+                  <option disabled="" selected="" hidden="">Selection</option>
+                  <option value="EManson">Eric Manson</option>
+                  <option value="CPneu">Daniel Mainville</option>
+                  <option value="RTransmission">Sasha Boisvert</option>
+                  <option value="RMoteur">Samuel Monpetit</option>
+                  <option value="CFrein">Travis Conny</option>
+                  <option value="RSuspension">Olivier Valentin</option>
+                </select>
+                <p class="lead">S'il vous plaît choisir une date:</p>
+                <input type="date" id="date" name="date-reservation" min="2022-06-09" max="2050-06-09">
+                <p class="lead">S'il vous plaît choisir une heure:</p>
+                <select class="custom-select" id="heure">
+                  <option disabled="" selected="" hidden="">Selection</option>
+                  <option value="7h">7h00</option>
+                  <option value="8h">8h00</option>
+                  <option value="9h">9h00</option>
+                  <option value="10h">10h00</option>
+                  <option value="11h">11h00</option>
+                  <option value="12h">12h00</option>
+                  <option value="13h">13h00</option>
+                  <option value="14h">14h00</option>
+                  <option value="15h">15h00</option>
+                  <option value="16h">16h00</option>
+                  <option value="17h">17h00</option>
+                  <option value="18h">18h00</option>
+                </select>
+                <a href="reservation_2.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Next step</a>
+
+            </div>
+            <div class="col-2 bg-info no-float">
+              <div class="m-2"><img src="assets/image1.jpeg" alt="garage" class="img-thumbnail"></div>  
+              <div class="m-2"><img src="assets/image2.jpeg" alt="garage" class="img-thumbnail"></div>
+              <div class="m-2"><img src="assets/image3.jpeg" alt="garage" class="img-thumbnail"></div>
+              <div class="m-2"><img src="assets/image4.jpeg" alt="garage" class="img-thumbnail"></div>
+              <div class="m-2"><img src="assets/image5.jpeg" alt="garage" class="img-thumbnail"></div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+crossorigin="anonymous"></script>
+</body>
+</html>
