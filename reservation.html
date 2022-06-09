@@ -40,49 +40,59 @@
           
           </div>
             <div class="col-8 bg-light">
-                <p class="lead">S'il vous plaît choisir un service:</p>
-                <select class="custom-select" id="service">
-                  <option disabled="" selected="" hidden="">Selection</option>
-                  <option value="cHuile">Changement d'huile</option>
-                  <option value="CPneu">Changement de pneu</option>
-                  <option value="RTransmission">Reparation de transmission</option>
-                  <option value="RMoteur">Réparation de moteur</option>
-                  <option value="CFrein">Changement de frein</option>
-                  <option value="RSuspension">Réparation de la suspension</option>
-                  <option value="CBatterie">Changement de la batterie</option>
-                  <option value="APneu">Alligment des pneus</option>
-                  <option value="RAC">Réparation de l'air climatisé</option>
-                  <option value="RCaroserie">Réparation de la caroserie</option>
-                </select>
-                <p class="lead">S'il vous plaît choisir un Expert:</p>
-                <select class="custom-select" id="expert">
-                  <option disabled="" selected="" hidden="">Selection</option>
-                  <option value="EManson">Eric Manson</option>
-                  <option value="CPneu">Daniel Mainville</option>
-                  <option value="RTransmission">Sasha Boisvert</option>
-                  <option value="RMoteur">Samuel Monpetit</option>
-                  <option value="CFrein">Travis Conny</option>
-                  <option value="RSuspension">Olivier Valentin</option>
-                </select>
-                <p class="lead">S'il vous plaît choisir une date:</p>
-                <input type="date" id="date" name="date-reservation" min="2022-06-09" max="2050-06-09">
-                <p class="lead">S'il vous plaît choisir une heure:</p>
-                <select class="custom-select" id="heure">
-                  <option disabled="" selected="" hidden="">Selection</option>
-                  <option value="7h">7h00</option>
-                  <option value="8h">8h00</option>
-                  <option value="9h">9h00</option>
-                  <option value="10h">10h00</option>
-                  <option value="11h">11h00</option>
-                  <option value="12h">12h00</option>
-                  <option value="13h">13h00</option>
-                  <option value="14h">14h00</option>
-                  <option value="15h">15h00</option>
-                  <option value="16h">16h00</option>
-                  <option value="17h">17h00</option>
-                  <option value="18h">18h00</option>
-                </select>
-                <a href="reservation_2.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Next step</a>
+                <form>
+                  <div class="form-group">
+                    <p class="lead">S'il vous plaît choisir un service:</p>
+                    <select class="custom-select" id="service">
+                      <option disabled="" selected="" hidden="">Selection</option>
+                      <option value="cHuile">Changement d'huile</option>
+                      <option value="CPneu">Changement de pneu</option>
+                      <option value="RTransmission">Reparation de transmission</option>
+                      <option value="RMoteur">Réparation de moteur</option>
+                      <option value="CFrein">Changement de frein</option>
+                      <option value="RSuspension">Réparation de la suspension</option>
+                      <option value="CBatterie">Changement de la batterie</option>
+                      <option value="APneu">Alligment des pneus</option>
+                      <option value="RAC">Réparation de l'air climatisé</option>
+                      <option value="RCaroserie">Réparation de la caroserie</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <p class="lead">S'il vous plaît choisir un expert:</p>
+                    <select class="custom-select" id="expert">
+                      <option disabled="" selected="" hidden="">Selection</option>
+                      <option value="EManson">Eric Manson</option>
+                      <option value="CPneu">Daniel Mainville</option>
+                      <option value="RTransmission">Sasha Boisvert</option>
+                      <option value="RMoteur">Samuel Monpetit</option>
+                      <option value="CFrein">Travis Conny</option>
+                      <option value="RSuspension">Olivier Valentin</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <p class="lead">S'il vous plaît choisir une date:</p>
+                    <input type="date" id="date" name="date-reservation" min="2022-06-09" max="2050-06-09">
+                  </div>
+                  <div class="form-group">
+                    <p class="lead">S'il vous plaît choisir une heure:</p>
+                    <select class="custom-select" id="heure">
+                      <option disabled="" selected="" hidden="">Selection</option>
+                      <option value="7h">7h00</option>
+                      <option value="8h">8h00</option>
+                      <option value="9h">9h00</option>
+                      <option value="10h">10h00</option>
+                      <option value="11h">11h00</option>
+                      <option value="12h">12h00</option>
+                      <option value="13h">13h00</option>
+                      <option value="14h">14h00</option>
+                      <option value="15h">15h00</option>
+                      <option value="16h">16h00</option>
+                      <option value="17h">17h00</option>
+                      <option value="18h">18h00</option>
+                    </select>
+                  </div>
+                  <a href="reservation_2.html" class="btn btn-primary mx-auto mt-3" role="button" aria-pressed="true">Next Step</a>
+                </form>
 
             </div>
             <div class="col-2 bg-info no-float">
